@@ -1,0 +1,322 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@320&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif !important;
+}
+
+body {
+  @media screen and (max-width: 471px) {
+    padding-bottom: 60px;
+  }
+}
+
+.card-main {
+  border-radius: 10px;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  /* width: 340px; */
+  /* margin: 20px; */
+}
+
+.card-header img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  min-height: 250px;
+}
+
+.tag {
+  color: #133680;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0px 0px 0px 10px;
+  padding: 2px 10px;
+  text-transform: uppercase;
+}
+
+.card-body h4 {
+  margin: 10px 0px 0px 10px;
+}
+
+.card-body p {
+  font-size: 14px;
+  margin: 10px 10px 20px 10px;
+  font-weight: 500;
+  color: rgb(70, 68, 68);
+}
+
+.user {
+  display: flex;
+  margin: 0px 10px 20px 10px;
+}
+
+.user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.user-info h5 {
+  margin: 0;
+}
+
+.user-info small {
+  color: #888785;
+}
+
+.hover-login:hover {
+  /* color:'#30A2FF'; */
+  background-color: "#ffff";
+}
+
+.serachBox {
+  width: 22em;
+  height: 2.2em;
+  border: none;
+  outline: none;
+  border-radius: 0.4em;
+}
+
+.css-19kzrtu {
+  margin-top: 24px;
+  padding: 0px !important;
+}
+
+.footor-li {
+  list-style: none;
+}
+
+.cardX {
+  background-color: #eeeeee;
+  border-radius: 2px;
+  padding: 6px;
+  text-align: center;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ImageX {
+  width: 21em;
+  height: 11em;
+}
+
+.ImageY {
+  width: 18em;
+  height: 25em;
+}
+
+.ImageZ {
+  width: 14.2em;
+  height: 23em;
+}
+
+.ImageCall {
+  width: 7.6em;
+  height: 7.6em;
+  margin-right: 5em;
+}
+
+.ImageChat {
+  width: 7.6em;
+  height: 7.6em;
+  margin-left: 5em;
+}
+
+.ImageSearch {
+  width: 7.6em;
+  height: 7.6em;
+}
+
+.choose-card {
+  background-color: #ffff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  border-radius: 4px;
+  /* margin: 20px; */
+}
+
+.mission {
+  margin: 18px 60px;
+  font-weight: 600;
+}
+
+.list-ty {
+  list-style: none;
+}
+
+.founder {
+}
+.imgcertificate {
+  width: 86px;
+  height: 80px;
+  border-radius: 4%;
+  object-fit: cover;
+}
+
+.imgreg {
+  width: 72px;
+  height: 60px;
+  border-radius: 4%;
+  object-fit: cover;
+}
+
+.imgGovt {
+  width: 50px;
+  height: 42px;
+  border-radius: 4%;
+  object-fit: cover;
+}
+
+.imgpreview {
+  width: 120px;
+  height: 120px;
+  border-radius: 4%;
+  object-fit: cover;
+}
+
+.spinner {
+  width: 56px;
+  height: 56px;
+  display: grid;
+  border: 4.5px solid #133680;
+  border-radius: 50%;
+  border-color: #dbdcef #133680;
+  animation: spinner-e04l1k 1s infinite linear;
+  position: absolute;
+  top: 46%;
+  left: 45%;
+}
+
+.spinner::before,
+.spinner::after {
+  content: "";
+  grid-area: 1/1;
+  margin: 2.2px;
+  border: inherit;
+  border-radius: 50%;
+}
+
+.spinner::before {
+  border-color: #133680 #ff2e63;
+  animation: inherit;
+  animation-duration: 0.5s;
+  animation-direction: reverse;
+}
+
+.spinner::after {
+  margin: 8.9px;
+}
+
+@keyframes spinner-e04l1k {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+.new.active {
+  background-color: #133680;
+  color: #ffff;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+@media (max-width: 1024px) {
+  .ImageX {
+    width: 16em;
+    height: 8em;
+  }
+
+  .ImageY {
+    width: 15em;
+    height: 22.6em;
+  }
+
+  .ImageZ {
+    width: 12.2em;
+    height: 21.4em;
+  }
+
+  .ImageCall {
+    width: 6em;
+    height: 6em;
+    margin-right: 5em;
+  }
+
+  .ImageChat {
+    width: 6em;
+    height: 6em;
+    margin-left: 5em;
+  }
+
+  .ImageSearch {
+    width: 6em;
+    height: 5.8em;
+  }
+}
+
+@media (max-width: 510px) {
+  .ImageCall {
+    width: 4em;
+    height: 4em;
+    margin-right: 4em;
+  }
+
+  .ImageChat {
+    width: 4em;
+    height: 4em;
+    margin-left: 4em;
+  }
+
+  .ImageSearch {
+    width: 4em;
+    height: 4.2em;
+  }
+}
+
+@media (max-width: 360px) {
+  .ImageCall {
+    width: 3.2em;
+    height: 3.2em;
+    margin-right: 2.4em;
+  }
+
+  .ImageChat {
+    width: 3.2em;
+    height: 3.2em;
+    margin-left: 2.4em;
+  }
+
+  .ImageSearch {
+    width: 3.2em;
+    height: 3.2em;
+  }
+}
+
+@media (max-width: 510px) {
+  .choose-card {
+    display: none;
+  }
+}
+
+.disabled {
+  color: "#133680";
+}
